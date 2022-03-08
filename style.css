@@ -82,7 +82,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    left: 0;
+    left: 0;    
     top: 0;
     border-radius: 8px;
     outline: none;
@@ -91,6 +91,13 @@ body {
     padding-left: 50px;
     font-size: 18px;
     color: #fff;
+}
+
+.sidebar ul li .bx-search {
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
 }
 
 .sidebar ul li a:hover {
@@ -105,6 +112,70 @@ body {
     line-height: 50px;
 }
 
+.sidebar .profile_content {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
+.sidebar .profile_content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #1d1b31;
+}
+
+.profile_content .profile .profile_details {
+    display: flex;
+    align-items: center;    
+}
+
+.profile .profile_details img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.profile .profile_details .name_job {
+    margin-left: 10px;
+}
+
+.profile .profile_details .name {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile .profile.profile_details .job {
+    font-size: 12px;
+}
+
+.profile #log_out {
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 12px;    
+}
+
+.home_content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+    top: 0;    
+    
+}
+
+.home_content .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1d1b31;
+}
 
 
